@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product 26/08/21</title>
-    
 </head>
 <body>
     <header>
@@ -26,44 +25,42 @@
         <iframe id="Tauz5" width="170" height="150" src="https://www.youtube.com/embed/Pk3o9mI6Xzk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe id="Tauz5" width="170" height="150" src="https://www.youtube.com/embed/Xe8Z9l-lCVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
         <iframe id="Tauz5" width="170" height="150" src="https://www.youtube.com/embed/3A0D7zANAto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-        <iframe id="Tauz5" width="170" height="150" src="https://www.youtube.com/embed/kTdnEXc5dXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
+        <iframe id="Tauz5" width="170" height="150" src="https://www.youtube.com/embed/kTdnEXc5dXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
         </center>
         </body>
-     </header>
-     
-     
-    <style>
+    </header>
+
+<style>
         
-        h2 {
-            max-width: 780px;
-            text-align: center;
-            margin: 60px auto;
-            font-family: 'Courier New', Courier, monospace;
-            color: #fff;
-          }
+h2 {
+max-width: 780px;
+text-align: center;
+margin: 60px auto;
+font-family: 'Courier New', Courier, monospace;
+color: #fff;
+}
         
-          h2::after {
-            content: '|';
-            opacity: 1;
-            margin-left: 5px;
-            display: inline-block;
-            animation: blink .7s infinite;
-          }
+h2::after {
+content: '|';
+opacity: 1;
+margin-left: 5px;
+display: inline-block;
+animation: blink .7s infinite;
+}
         
-          @keyframes blink {
-            0%, 100% {
-              opacity: 1;
-            }
-            50% {
-              opacity: 0;
-            }
-          }
-        </style>
-        <script>
-          function typeWriter(elemento) {
-            const textoArray = elemento.innerHTML.split('');
-            elemento.innerHTML = '';
+@keyframes blink {
+0%, 100% {
+opacity: 1;
+}
+50% {
+opacity: 0;
+}
+}
+</style>
+<script>
+  function typeWriter(elemento) {
+        const textoArray = elemento.innerHTML.split('');
+          elemento.innerHTML = '';
             textoArray.forEach((letra, i) => {
               setTimeout(() => elemento.innerHTML += letra, 75 * i);
             });
